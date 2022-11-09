@@ -31,7 +31,7 @@ class _SearchPageState extends State<SearchPage> {
   List<MovieModel> display_list = List.from(main_movies_list);
 
   void updateList(String value) {
-    //função que vai filtrar nossa lista, our search function
+    //our search function filter
 
     setState(() {
       display_list = main_movies_list
